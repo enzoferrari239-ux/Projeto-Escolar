@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/Principal.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/testimonials.css">
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Projeto Auxilio</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-house" id="nav_logo">Imobiliaria Auxiliar</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#menu">Menu</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#testimonials">Feedbacks</a>
+                </li>
+
+            </ul>
+
+            <button class="btn-default"> 
+                Alugue aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+              <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#menu">Menu</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#testimonials">Feedbacks</a>
+                </li>
+                 <button class="btn-default"> 
+                Alugue aqui
+            </button>
+
+            </ul>
+        </div>
+    </header>  
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Conectando você ao lugar que chama de 
+                    <span>lar.</span>
+                </h1>
+
+                <p class="description">
+                    A Projeto Auxiliar é uma imobiliária comprometida em transformar sonhos em conquistas reais.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Opções
+                    </a>
+                    <a href="tel:+55555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                          
+                        </button>
+                          (51) 55555-5555
+                    </a>
+                </div>
+
+                <div id="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="./img/house_front_view_made_of_wood-removebg-preview.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <section id="menu">
+        <h2 class="section-title">Casas</h2>
+        <h3 class="section-subtitle">Mais escolhidas</h3>
+
+        <div id="houses">
+            <div class="house">
+                <div class="big-house">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <img src="./img/casa1.jpg" class="big_house" alt="">
+                <h3 class="big-house-title">
+                   Modern-house
+                </h3>
+
+                <span class="house-description">
+                     Casa moderna grande, com quatro comodos, uma cozinha, um banheiro e uma area de lazer.
+                </span>
+
+                <div class="house-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                      <span>(30)</span>
+                </div>
+
+
+                <div class="house-price">
+                    <h4>R$650,00</h4>
+                    <button class="btn-default"> <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                   
+                </div>
+            </div>
+            <div class="house">
+                <div class="big-house">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <img src="./img/casa2 (1).jpg" class="big_house" alt="">
+                <h3 class="big-house-title">
+                  Family-House
+                </h3>
+
+                <span class="house-description">
+                     Casa de familia morderna e grande, com cinco comodos, dois banheiro, uma cozinha, uma area de lazer, um sotão e um porão.
+                </span>
+
+                <div class="house-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>             
+                    <i class="fa-solid fa-star"></i>
+                      <span>(24)</span>
+                </div>
+                  <div class="house-price">
+                    <h4>R$850,00</h4>
+                    <button class="btn-default"> <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                    </div>
+                 </div>
+                         <div class="house">
+                <div class="big-house">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <img src="./img/casa3.jpg" class="big_house" alt="">
+                <h3 class="big-house-title">
+                   Beach-house
+                </h3>
+
+                <span class="house-description">
+                     Casa de praia, com quatro comodos, uma cozinha, um banheiro e uma area de lazer.
+                </span>
+
+                <div class="house-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                      <span>(19)</span>
+                </div>
+
+
+                <div class="house-price">
+                    <h4>R$950,00</h4>
+                    <button class="btn-default"> <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                   
+                </div>
+            </div>
+                <div class="house">
+                <div class="big-house">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <img src="./img/casa4.jpg" class="big_house" alt="">
+                <h3 class="big-house-title">
+                   Basic-house
+                </h3>
+
+                <span class="house-description">
+                     Casa Básica, com dois comodos, uma cozinha e um banheiro.
+                </span>
+
+                <div class="house-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                      <span>(50+)</span>
+                </div>
+
+
+                <div class="house-price">
+                    <h4>R$450,00</h4>
+                    <button class="btn-default"> <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                   
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="testimonials">
+        <img src="img/what____-removebg-preview_resized.png" id="testimonial_man">
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Avaliações
+            </h2>
+            <h3 class="section-subtitle">
+                O que os contratantes acham?
+            </h3>
+
+            <div id="feedbacks">
+                <div class="feedback">
+                    <img src="img/NPC thinking meme_resized.jpg" class="feedback-avatar" alt="">
+                    <div class="feedback-content">
+                        <p>
+                            Homem pensante
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                        "Essa casa é muito boa deu para aproveitar bastante"
+                        </p>          
+                   </div> 
+                   
+                 </div>    
+                  <div id="feedbacks">
+                <div class="feedback">
+                    <img src="img/Nikola & Albert_resized.jpg" class="feedback-avatar" alt="">
+                    <div class="feedback-content">
+                        <p>
+                            Homens pensantes
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                        "Essa casa é muito boa"
+                        </p>                 
+                </div>
+              </div>
+            
+
+            <button class="btn-default" >
+                 Ver mais Avaliações
+            </button>
+        </div>
+    </section>
+        </main>
+
+        <footer>
+            <img src="/img/wave.svg" alt="">
+
+            <div id="footer_itens">
+                <span id="copyright">
+                  &copy 2026 Enzo de Souza
+                </span>
+
+                <div></div>
+            </div>
+        </footer>
+
+
+ <script src="javascript/Script.js"></script>
+
+</body>
+</html>

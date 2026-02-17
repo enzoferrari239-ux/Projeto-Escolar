@@ -1,0 +1,81 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#houses {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px ;
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+.big-house {
+    position: absolute;
+    background-color: #593E1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem ;
+    color: #fff9ea;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.house-description{
+    color: #8c7961;
+    text-align: center;
+}
+
+.house-rate i {
+    color: #e9a209;
+}
+
+.house-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+    #houses {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .house {
+        width: calc(50% - 12px);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+     .house {
+        width: 100%;
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+    }
+    
+}
