@@ -62,20 +62,17 @@
         justify-content: center;
     }
 
-
     .house {
         width: calc(50% - 12px);
     }
-    
 }
 
 @media screen and (max-width: 600px) {
-     .house {
+    .house {
         width: 100%;
     }
 
     #menu .section-subtitle {
         text-align: center;
     }
-    
-}
+} 

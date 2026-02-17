@@ -14,7 +14,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    #footer_itens {
+    #footer_items {
         flex-direction: column;
         gap: 20px;
     }
