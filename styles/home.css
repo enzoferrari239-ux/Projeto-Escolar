@@ -39,7 +39,7 @@
     gap: 8px;
     align-items: center;
     background-color: #fff;
-    padding: 8px 14px ;
+    padding: 8px 14px;
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -55,12 +55,12 @@
     justify-content: end;
     width: 70%;
     z-index: 2;
-   }
+}
 
 #banner img {
     height: 100%;
     width: fit-content;
-   }
+}
 
 .shape {
     background-color: #ffe8b4;
@@ -71,9 +71,9 @@
     top: 0;
     right: 0;
     z-index: 1;
-   }
+}
 
-   @media screen and (max-width: 1170px) {
+@media screen and (max-width: 1170px) {
     #home {
         min-height: 100%;
         padding-top: 0px;
@@ -90,12 +90,27 @@
         text-align: center;
         align-items: center;
     }
+
+    /* ✅ CORRIGIDO: título menor no tablet/mobile */
+    #cta .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* ✅ CORRIGIDO: título ainda menor em telas pequenas */
+    #cta .title {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
     #phone_button button {
         display: none;
     }
+
+    /* ✅ CORRIGIDO: título compacto em celulares pequenos */
+    #cta .title {
+        font-size: 1.75rem;
+    }
 }
-    
-   
